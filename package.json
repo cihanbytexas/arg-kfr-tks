@@ -1,9 +1,18 @@
 {
-  "name": "my-bdfd-api",
+  "name": "kufur-api",
   "version": "1.0.0",
+  "description": "Türkçe küfür engelleme API (BDFD + Vercel Edge Function)",
+  "main": "index.js",
   "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["küfür", "api", "bdfd", "vercel", "edge"],
+  "author": "ts",
+  "license": "MIT",
   "dependencies": {
-    "bad-words": "^3.0.4",
-    "node-fetch": "^3.3.2"
+    "bad-words": "^3.0.4"
   }
 }
